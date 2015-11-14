@@ -44,7 +44,8 @@
                 $export = $([
                     '<div class="export btn-group">',
                         '<button class="btn btn-default dropdown-toggle" ' +
-                            'data-toggle="dropdown" type="button">',
+                        sprintf(' btn-%s', BootstrapTable.options.iconSize) +
+                        'data-toggle="dropdown" type="button">',
                             '<i class="glyphicon glyphicon-export icon-share"></i> ',
                             '<span class="caret"></span>',
                         '</button>',
